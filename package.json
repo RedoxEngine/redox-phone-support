@@ -1,0 +1,20 @@
+{
+  "name": "redox-phone-support",
+  "version": "1.0.0",
+  "description": "Manage call forwarding service from Twilio phone number to PagerDuty on-call schedule",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "",
+  "engines": {
+    "node": ">=11.10.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "moment": "^2.24.0",
+    "node-pagerduty": "^1.1.1",
+    "twilio": "^3.28.1"
+  }
+}
